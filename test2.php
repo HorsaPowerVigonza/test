@@ -1,9 +1,18 @@
-// test 22222222
-
-// pluto
 <?php
+/**
+ * Questo file contiene una funzione per salutare.
+ */
 
-echo "Hello world";
+/**
+ * Stampa un messaggio di saluto.
+ *
+ * @param string $nome Il nome della persona da salutare.
+ */
+function saluta($nome) {
+    echo "Ciao, $nome!";
+}
 
-
+// Esempio di utilizzo della funzione saluta
+$var = "Pippo";
+saluta($var);
 ?>
