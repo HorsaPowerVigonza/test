@@ -5,7 +5,7 @@ Questo spazio è dedicato a chi ama sperimentare, sbagliare e imparare. Qui, ogn
 
 Come partecipare:
 
-Download: Prendi il codice, crea un tuo branch e inizia a modificare.
+Download: Prendi il codice, crea un tuo branch e inizia a modificare. 
 Commit & Push: Ogni cambiamento, anche il più piccolo, è un passo verso nuove scoperte. Non dimenticare di scrivere un messaggio di commit chiaro!
 Pull Request: Quando sei soddisfatto del tuo lavoro, apri una pull request per condividere il tuo lavoro con il team.
 
