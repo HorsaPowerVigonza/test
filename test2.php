@@ -17,5 +17,6 @@ function saluta($nome) {
 $var = "Pippo-Pluto-Prova";
 $prova = 'ALBERTO';
 $prova = 'VALERIA';
+$prova = 'SERENA CIAO';
 saluta($var);
 ?>
