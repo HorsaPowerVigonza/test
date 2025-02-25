@@ -9,7 +9,8 @@
  * @param string $nome Il nome della persona da salutare.
  */
 function saluta($nome) {
-    echo "Ciao, $nome!";
+    $ciao = 'ciao ciao';
+    echo "$ciao, $nome!";
 }
 
 // Esempio di utilizzo della funzione saluta
