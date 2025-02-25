@@ -13,6 +13,6 @@ function saluta($nome) {
 }
 
 // Esempio di utilizzo della funzione saluta
-$var = "Pippo-Pluto";
+$var = "Pippo-Pluto-Prova";
 saluta($var);
 ?>
