@@ -13,6 +13,10 @@ function saluta($nome) {
     echo "$ciao, $nome!";
 }
 
+//
+// ksjfxohdi
+//
+
 // Esempio di utilizzo della funzione saluta
 $var = "Pippo-Pluto-Prova";
 $prova = 'ALBERTO';
