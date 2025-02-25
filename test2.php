@@ -16,7 +16,7 @@ function saluta($nome) {
 // Esempio di utilizzo della funzione saluta
 $var = "Pippo-Pluto-Prova";
 $prova = 'ALBERTO';
-$prova = 'VALERIA';
+$prova = 'VALERIA 2';
 $prova = 'SERENA';
 
 $edit = 'coiahdoushd';
