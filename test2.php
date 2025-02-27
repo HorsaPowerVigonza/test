@@ -13,6 +13,35 @@ function saluta($nome) {
     echo "$ciao, $nome!";
 }
 
+//
+// @SerenaMalusa ha fatto questa modifica
+
+function conta ($numeri ) {
+
+    if (gettype($numeri) == string) {
+
+        str_replace([',', ' ', ';', '.', '/', '-'], '', $numeri);
+        $iMax = strlen($numeri);
+
+        for ($i = 1; $i <= $iMax; $i++) {
+
+            echo $numeri[$i]."\n";
+
+        }
+
+    } else if (gettype($numeri) == array) {
+
+        foreach ($numeri as $numero) {
+
+            echo $numero;
+
+        }
+
+    }
+
+
+}
+
 // Esempio di utilizzo della funzione saluta
 $var = "Pippo-Pluto-Prova";
 $prova = 'ALBERTO';
