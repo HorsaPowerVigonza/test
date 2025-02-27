@@ -20,7 +20,7 @@ function conta ($numeri ) {
 
     if (gettype($numeri) == string) {
 
-        str_replace([',', ' ', ';'], '', $numeri);
+        str_replace([',', ' ', ';', '.', '/', '-'], '', $numeri);
         $iMax = strlen($numeri);
 
         for ($i = 1; $i <= $iMax; $i++) {
