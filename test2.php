@@ -9,37 +9,7 @@
  * @param string $nome Il nome della persona da salutare.
  */
 function saluta($nome) {
-    $ciao = 'ciao ciao';
-    echo "$ciao, $nome!";
-}
-
-//
-// @SerenaMalusa ha fatto questa modifica
-
-function conta ($numeri ) {
-
-    if (gettype($numeri) == string) {
-
-        str_replace([',', ' ', ';', '.', '/', '-'], '', $numeri);
-        $iMax = strlen($numeri);
-
-        for ($i = 1; $i <= $iMax; $i++) {
-
-            echo $numeri[$i]."\n";
-
-        }
-
-    } else if (gettype($numeri) == array) {
-
-        foreach ($numeri as $numero) {
-
-            echo $numero;
-
-        }
-
-    }
-
-
+    echo "Ciao!, $nome!";
 }
 
 // Esempio di utilizzo della funzione saluta
